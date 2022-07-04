@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true, // nie dopuszczamy do jawnego any
+    "preserveConstEnums": true, // Po to zeby działa ENUMY
+    "sourceMap": true, // pozwala okreslić w  którym miejscu w TypeScirpt mamy błąd
+    "target": "ES6", // jaka wesja ECMA SCRIPT
+    "downlevelIteration": true, // żeby mogli robić iterowanie po żonych rzeczach
+    "module": "CommonJS", // system modułów rozpoznwalny przez NODE
+    "lib": ["es6"], // biblioteka
+    "outDir": "dist", // gdzie bedzie produkcyjna wersja
+    "experimentalDecorators": true, // dekoratory
+    "emitDecoratorMetadata": true, // dekoratory
+    "moduleResolution": "Node", // moduly maja byc rozwiazywane tak jak w node
+    "esModuleInterop": true //
+  }
+}
