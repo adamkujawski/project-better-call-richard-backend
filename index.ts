@@ -7,7 +7,7 @@ import rateLimit from "express-rate-limit";
 import { config } from "./config/config";
 import { FaultRouter } from "./routers/fault.router";
 import bodyParser from "body-parser";
-import {testRouter} from "./routers/test.router";
+import {loginRouter} from "./routers/login.router";
 
 const app = express();
 
@@ -30,7 +30,7 @@ const router = Router();
 app.use('/api', router)
 
 router.use("/fault", FaultRouter);
-router.use("/test", testRouter);
+router.use("/login", loginRouter);
 
 app.use(
   rateLimit({
