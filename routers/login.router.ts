@@ -15,7 +15,7 @@ interface UserInterface {
 
 type UserRestults = [UserInterface[], FieldPacket[]];
 
-export const testRouter = Router()
+export const loginRouter = Router()
     .post(
         "/register",
         signupValidation,
