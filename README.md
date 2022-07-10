@@ -18,7 +18,7 @@ After such an event, the user will receive an email, and can accept the prelimin
 After the repair, the mechanic can complete the request by editing it.
 
 	
-** Unfortunately, the project without commits, because I forgot to properly configure the .gitignore :) 
+** Unfortunately, the backend part without commits, because I forgot to properly configure the .gitignore :) 
   
 ## Technologies
 * NodeJs
