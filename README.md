@@ -31,6 +31,31 @@ After the repair, the mechanic can complete the request by editing it.
 ## Setup
 To run this project, install it locally using npm:
 
+Frontend:
 - npm i 
-- change parameters in /config/config.example.ts and /config/config.nodemailer.ts
+- run scrtip "start" from package.json
+
+Backend:
+- npm i 
+- change parameters in /config/config.example.ts and /config/config.nodemailer.example.ts
 - run script start:dev
+
+## DEMO
+
+https://bettercallrichard.networkmanager.pl
+
+Richard account to login
+
+- richard@richard.com
+- 1234
+
+Or you can register your own account by sending json (method post)  https://bettercallrichard.networkmanager.pl/api/test/register 
+This function it is not ready from frontend side.
+
+json example: 
+{
+  "name": "your_name",
+  "email":"your_email",
+  "password":"your_password",
+}
+
