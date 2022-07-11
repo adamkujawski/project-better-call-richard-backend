@@ -34,10 +34,11 @@ To run this project, install it locally using npm:
 Frontend:
 - npm i 
 - run scrtip "start" from package.json
+- set propely path for types in file tsconfig.paths.json
 
 Backend:
 - npm i 
-- change parameters in /config/config.example.ts and /config/config.nodemailer.example.ts
+- change parameters in /config/config.example.ts and /config/config.nodemailer.example.ts. After that delete "example" from name of file
 - run script start:dev
 
 ## DEMO
